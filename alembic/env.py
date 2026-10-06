@@ -4,3 +4,4 @@ from app.models import Base
 
 config.set_main_option("sqlalchemy.url", settings.database_url)
 target_metadata = Base.metadata
+
